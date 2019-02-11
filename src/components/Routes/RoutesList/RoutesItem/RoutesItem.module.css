@@ -1,0 +1,11 @@
+.PointBlock {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d5d5d5;
+  padding: 5px;
+}
+
+.RemoveIcon {
+  font-weight: bold;
+  cursor: pointer;
+}

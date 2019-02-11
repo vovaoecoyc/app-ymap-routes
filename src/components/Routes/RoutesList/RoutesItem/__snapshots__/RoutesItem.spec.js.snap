@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RoutesItem container RoutesItem initial RoutesItem initial snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RoutesItem
+    id={1}
+    point={
+      Object {
+        "coordinates": Array [
+          55.1,
+          38.1,
+        ],
+        "name": "Name Point",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span>
+          Name Point
+        </span>,
+        <div
+          className="RemoveIcon"
+          onClick={[Function]}
+        >
+          X
+        </div>,
+      ],
+      "className": "PointBlock",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Name Point",
+        },
+        "ref": null,
+        "rendered": "Name Point",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "X",
+          "className": "RemoveIcon",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "X",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span>
+            Name Point
+          </span>,
+          <div
+            className="RemoveIcon"
+            onClick={[Function]}
+          >
+            X
+          </div>,
+        ],
+        "className": "PointBlock",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Name Point",
+          },
+          "ref": null,
+          "rendered": "Name Point",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "X",
+            "className": "RemoveIcon",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "X",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "context": Object {
+      "changePointPosition": [Function],
+      "getMapInstance": [Function],
+      "getMapRef": [Function],
+      "getPoints": [Function],
+      "loadPoints": [Function],
+      "mapInstance": null,
+      "mapRef": null,
+      "points": Array [
+        Object {
+          "coordinates": Array [
+            55.1,
+            38.1,
+          ],
+          "name": "Name Point1",
+        },
+        Object {
+          "coordinates": Array [
+            55.9,
+            38,
+          ],
+          "name": "Name Point2",
+        },
+      ],
+      "removePoint": [Function],
+      "setMapInstance": [Function],
+      "setMapRef": [Function],
+    },
+  },
+}
+`;

@@ -11,6 +11,9 @@
 # production
 /build
 
+/components/Test
+src/tempPolyfills.js
+
 # misc
 .DS_Store
 .env.local
